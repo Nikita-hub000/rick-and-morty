@@ -1,0 +1,10 @@
+.head__text{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 24px;
+    line-height: 20px; */
+    color: #c0c0c0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}

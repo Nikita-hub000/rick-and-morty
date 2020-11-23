@@ -1,0 +1,19 @@
+@import url(./__data/card__data.css);
+@import url(./__descrip/card__descrip.css);
+@import url(./__id/card__id.css);
+@import url(./__img/card__img.css);
+@import url(./__container/card__container.css);
+@import url(./__status/card__status.css);
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.card:hover{
+    background-image: linear-gradient(to top right, rgb(99, 255, 138), rgb(94, 236, 129), rgb(88, 216, 119), rgb(83, 197, 110), rgb(77, 177, 100), rgb(72, 158, 91), rgb(66, 138, 81), rgb(61, 119, 72), rgb(55, 99, 62), rgb(50, 80, 53), rgb(44, 60, 43), rgb(39, 41, 34));
+    border: 1px solid #fff;
+    cursor: pointer;
+}

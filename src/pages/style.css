@@ -1,0 +1,7 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/head/head.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/card/card.css);
+body{
+    background: #212933;
+}

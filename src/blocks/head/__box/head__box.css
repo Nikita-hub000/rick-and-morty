@@ -1,0 +1,7 @@
+.head__box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}

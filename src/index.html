@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css %>">
+</head>
+<body>
+    <header class="head" onload="wind()">
+        <div class="head__box">
+        <h1 class="head__heading">РИК И МОРТИ</h1>
+        <p class="head__text">База данных героев</p>
+        </div>
+        <form class="head__field">
+            <input class="head__input" type="text" placeholder="Введите номер серии">
+        </form>
+    </header>
+    <main>
+        <div class="main__box">
+            <p class="head__heading">В базе вселенной удалось найти :</p>
+            <div class="main__grid">
+                <!-- <div class="card">
+                    <img class="card__img" src="<%=require('./img/rik-i-morti-rick-and-morty-rick-sanchez-rick-sanchez-morty-5.jpg').default%>" alt="character">
+                    <div class="card__data">
+                    <p class="card__id">#rtcecervrev</p>
+                    <h1 class="head__heading">Rick</h1>
+                    <p class="head__text">Категория <span class="head__text card__descrip">человек</span></p>
+                    <p class="head__text">Gender<span class="head__text card__descrip">Man</span></p>
+                    <p class="head__text">Begin<span class="head__text card__descrip">Earth111</span></p>
+                    <p class="head__text">Location<span class="head__text card__descrip">Earth</span></p>
+                </div>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="<%=require('./img/rik-i-morti-rick-and-morty-rick-sanchez-rick-sanchez-morty-5.jpg').default%>" alt="character">
+                    <div class="card__data">
+                    <p class="card__id">#rtcecervrev</p>
+                    <h1 class="head__heading">Rick</h1>
+                    <p class="head__text">Категория <span class="head__text card__descrip">человек</span></p>
+                    <p class="head__text">Gender<span class="head__text card__descrip">Man</span></p>
+                    <p class="head__text">Begin<span class="head__text card__descrip">Earth111</span></p>
+                    <p class="head__text">Location<span class="head__text card__descrip">Earth</span></p>
+                </div>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="<%=require('./img/rik-i-morti-rick-and-morty-rick-sanchez-rick-sanchez-morty-5.jpg').default%>" alt="character">
+                    <div class="card__data">
+                    <p class="card__id">#rtcecervrev</p>
+                    <div class="card__container"><h1 class="head__heading">Rick</h1><p class="card__status">Alive</p></div>
+                    <p class="head__text">Категория <span class="head__text card__descrip">человек</span></p>
+                    <p class="head__text">Gender<span class="head__text card__descrip">Man</span></p>
+                    <p class="head__text">Begin<span class="head__text card__descrip">Earth111</span></p>
+                    <p class="head__text">Location<span class="head__text card__descrip">Earth</span></p>
+                </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="main__notFound">
+            <p class="head__heading">Ничего не найдено</p>
+            <p class="head__text">Возможно, в далеких уголках вселенной есть ответ, но не в этой маленькой части данных</p>
+        </div>
+    </main>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

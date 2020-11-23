@@ -1,0 +1,7 @@
+.main__notFound{
+    display: none;
+    flex-direction: column;
+    margin-top: 0;
+    max-width: 1440px;
+    margin: 0 40px 0;
+}

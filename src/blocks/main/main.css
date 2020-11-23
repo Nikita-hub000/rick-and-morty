@@ -1,0 +1,6 @@
+@import url(./__box/main__box.css);
+@import url(./__grid/main__grid.css);
+@import url(./__notFound/main__notFound.css);
+main{
+    margin-top: 50px;
+}

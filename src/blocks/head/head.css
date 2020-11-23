@@ -1,0 +1,17 @@
+@import url(./__box/head__box.css);
+@import url(./__heading/head__heading.css);
+@import url(./__input/head__input.css);
+@import url(./__text/head__text.css);
+
+.head{
+    margin: 0 auto 0;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../../img/rik-i-morti-rick-and-morty-rick-sanchez-rick-sanchez-morty-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -535px;
+    box-shadow: inset 0 -2px 0 green;
+}
